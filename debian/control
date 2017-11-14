@@ -1,0 +1,22 @@
+Source: alpha-os-wingpanel-numix-fix
+Section: x11
+Priority: optional
+Maintainer: Richard Buchanan II <richard@alpha.store>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/numixproject/numix-icon-theme-circle
+
+Package: alpha-os-wingpanel-numix-fix
+Architecture: all
+Depends: ${misc:Depends}
+Description: Numix-Circle icons fixed for Pantheon's Wingpanel.
+ This package includes the Numix, Numix-Light, Numix-Circle, and
+ Numix-Circle-Light icons, built from tagged GitHub releases.
+ .
+ As of November 2017, any Numix icon set will appear oversized in
+ Wingpanel's right edge, and is missing icons in SwitchBoard, the 
+ AppCenter, etc.  This package includes an Inherits fix in Numix's
+ index.theme, and removes many symbolic icons.
+ .
+ Those changes pull the properly-sized elementary icons into Wingpanel,
+ and replace missing Numix icons with elementary ones.

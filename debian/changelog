@@ -1,0 +1,8 @@
+alpha-os-wingpanel-numix-fix (20170913-1) experimental; urgency=medium
+
+  * Initial release
+  * Added elementary to Numix's index.theme Inherits rule.
+  * Removed all icons in Numix/scalable/status, and removed
+  * system-shutdown-symbolic.svg in Numix{-Light}/scalable/actions
+
+ -- Richard Buchanan II <richard@alpha.store>  Sat, 11 Nov 2017 11:54:07 -0600
